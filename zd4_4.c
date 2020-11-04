@@ -5,17 +5,17 @@ int main()
 	setlocale(LC_ALL, "Rus");
 int a, b, s, r, p;
 float c;
-printf("Введите a\n");
+printf("Г‚ГўГҐГ¤ГЁГІГҐ a\n");
 scanf("%d", &a);
-printf("Введите b\n");
+printf("Г‚ГўГҐГ¤ГЁГІГҐ b\n");
 scanf("%d", &b);
 s=(a*a)+(b*b);
 r=(a*a)-(b*b);
 p=(a*a)*(b*b);
 c=((float)(a*a))/((float)(b*b));
-printf("Сумма = %d \n", s);
-printf("Разность = %d \n", r);
-printf("Произведение = %d \n", p);
-printf("Частное = %f \n", c);
+printf("Г‘ГіГ¬Г¬Г  = %d \n", s);
+printf("ГђГ Г§Г­Г®Г±ГІГј = %d \n", r);
+printf("ГЏГ°Г®ГЁГ§ГўГҐГ¤ГҐГ­ГЁГҐ = %d \n", p);
+printf("Г—Г Г±ГІГ­Г®ГҐ = %f \n", c);
 return 0;
 }
