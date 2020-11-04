@@ -13,9 +13,9 @@ s=(abs(a))+(abs(b));
 r=(abs(a))-(abs(b));
 p=(abs(a))*(abs(b));
 c=((float)(abs(a)))/((float)(abs(b)));
-printf("Ñóììà = %d \n", s);
-printf("Ðàçíîñòü = %d \n", r);
-printf("Ïðîèçâåäåíèå = %d \n", p);
-printf("×àñòíîå = %f \n", c);
+printf("Сумма = %d \n", s);
+printf("Разность = %d \n", r);
+printf("Произведение = %d \n", p);
+printf("Разность = %f \n", c);
 return 0;
 }
