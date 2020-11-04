@@ -4,15 +4,15 @@ int main()
 {
 int x,y,x1,y1,x2,y2,a,b,c;
 float P,S,p;
-printf("Координаты точки А\n x = ");
+printf("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё Рђ\n x = ");
 scanf("%d",&x);
 printf(" y = ");
 scanf("%d",&y);
-printf("Координаты точки B\n x = ");
+printf("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё B\n x = ");
 scanf("%d",&x1);
 printf(" y = ");
 scanf("%d",&y1);
-printf("Координаты точки C\n x = ");
+printf("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё C\n x = ");
 scanf("%d",&x2);
 printf(" y = ");
 scanf("%d",&y2);
@@ -22,7 +22,7 @@ c = sqrt((x2-x)*(x2-x)+(y2-y)*(y2-y));
 P = 2 * (a + b + c);
 p = 0.5 * P;
 S = sqrt(p*(p-a)*(p-b)*(p-c));
-printf ("Площадь = %f\n", S);
-printf ("Периметр = %f\n", P);
+printf ("РџР»РѕС‰Р°РґСЊ = %f\n", S);
+printf ("РџРµСЂРёРјРµС‚СЂ = %f\n", P);
 return 0; 
 }
