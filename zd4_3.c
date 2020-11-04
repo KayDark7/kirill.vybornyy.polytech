@@ -5,9 +5,9 @@ int main()
 	setlocale(LC_ALL, "Rus");
 int a, b;
 float s;
-printf("Ââåäèòå a\n");
+printf("Введите a\n");
 scanf("%d", &a);
-printf("Ââåäèòå b\n");
+printf("Введите b\n");
 scanf("%d", &b);
 s=((float)(a+b))/2;
 printf("S = %f \n", s);
