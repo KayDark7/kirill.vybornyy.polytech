@@ -4,15 +4,15 @@ int main()
 {
 int x,y,x1,y1;
 float d;
-printf("Координаты точки A\n x = ");
+printf("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё A\n x = ");
 scanf("%d",&x);
 printf(" y = ");
 scanf("%d",&y);
-printf("Координаты точки B\n x = ");
+printf("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё B\n x = ");
 scanf("%d",&x1);
 printf(" y = ");
 scanf("%d",&y1);
 d = sqrt((x1-x)*(x1-x)+(y1-y)*(y1-y));
-printf ("Расстояние между точками = %f\n", d);
+printf ("Р Р°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ С‚РѕС‡РєР°РјРё = %f\n", d);
 return 0; 
 }
