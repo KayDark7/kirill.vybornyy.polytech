@@ -5,7 +5,7 @@ int main()
 	setlocale(LC_ALL, "Rus");
 int d;
 float l;
-printf("Ââåäèòå d\n");
+printf("Введите d\n");
 scanf("%d", &d);
 float p=3.14;
 l=d*p;
