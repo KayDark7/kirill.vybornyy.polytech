@@ -4,9 +4,9 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 int a, b, s, p;
-printf("Введите a\n");
+printf("Г‚ГўГҐГ¤ГЁГІГҐ a\n");
 scanf("%d", &a);
-printf("Введите b\n");
+printf("Г‚ГўГҐГ¤ГЁГІГҐ b\n");
 scanf("%d", &b);
 s=a*b;
 p=2*(a+b);
